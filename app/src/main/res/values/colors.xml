@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="color_medium_priority">#C8D174</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#3700B3</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="color_high_priority">#CDDC39</color>
+    <color name="color_low_priority">#8BC34A</color>
 </resources>

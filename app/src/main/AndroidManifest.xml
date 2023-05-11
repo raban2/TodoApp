@@ -13,22 +13,27 @@
         android:theme="@style/Theme.TodoApp"
         tools:targetApi="31">
         <activity
-            android:name=".EditTodoFragment"
-            android:exported="false" />
-        <activity
-            android:name=".EditTodoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".TodoListFragment"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:name="com.example.todoapp.SplashActivity"
+            android:exported="true" >
+                <intent-filter>
+                    <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+                    <category android:name="android.intent.category.LAUNCHER" />
+
+                </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.todoapp.EditTodoFragment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.todoapp.EditTodoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.todoapp.TodoListFragment"
+            android:exported="false" />
+        <activity
+            android:name="com.example.todoapp.MainActivity"
+            android:exported="true">
         </activity>
     </application>
 

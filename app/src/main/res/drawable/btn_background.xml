@@ -3,4 +3,4 @@
     android:shape="rectangle">
     <solid android:color="@color/colorAccent"/>
     <corners android:radius="40dp" />
-</shape>git
+</shape>
