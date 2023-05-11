@@ -17,7 +17,7 @@ public class TodoViewModel extends AndroidViewModel {
         super(application);
 
         mTodoRepository = new TodoRepository(application);
-        mAllTodos=mTodoRepository.getmAllTodoList();
+        mAllTodos = mTodoRepository.getmAllTodoList();
     }
     public void insert(Task todo){
         mTodoRepository.insert(todo);
@@ -35,9 +35,11 @@ public class TodoViewModel extends AndroidViewModel {
     public void deleteById(Task todo){
         mTodoRepository.deleteById(todo);
     }
+
     public void deleteAll(){
         mTodoRepository.deleteAll();
     }
+
     public void deleteCompleted(){
         mTodoRepository.deleteCompleted();
     }
