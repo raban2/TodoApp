@@ -5,7 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import com.example.todoapp.data.TodoRepository;
+import com.example.todoapp.database.TodoRepository;
 import com.example.todoapp.database.TodoRepository;
 import com.example.todoapp.model.Task;
 
