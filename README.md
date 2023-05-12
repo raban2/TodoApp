@@ -9,54 +9,54 @@ A user may add task to todo task list,update the tasks as per their requirement,
 
  This is Splash Screeen of ToDo App where user can see the Logo of our APP befoe landing on the home page.
  
- ![add](gifs/splash.gif)
+ ![add](gifs/splash1.gif)
 
 ### Navigation
    User can navigate through one activity to another by using the back button present on the second activity.
   
-  ![add](gifs/navigation.gif)
+  ![add](gifs/navigation1.gif)
 
 ### Menu 
 
   Here, I have added  some of the options in a menu such as delete, share and exit. It helps to  perform certain actions.
   
-![add](gifs/menu.gif)
+![add](gifs/menu1.gif)
 
 ### Add Task 
 
   In this section, user can add task by filling title,description ,selecting date and priority of the task as well as choose the status and click on the save button. 
   
-![add](gifs/addTask.gif)
+![add](gifs/addTask1.gif)
 
 ### Update Task
 
   In this section user can easily update task by changing title,description ,selecting date and priority of the task as well as choose the status and click on the save button.In addition to, users can cancel the updation and go back on  the home.
   
-![add](gifs/updateTask.gif)
+![add](gifs/updateTask1.gif)
 
 ### Delete Completed Task Only
 
   In case of the task deletion, user can easily delete tasks that are already completed.
  
-![add](gifs/deleteCompletedTask.gif)
+![add](gifs/deleteCompletedTask1.gif)
 
 ### Delete All Task
  
   In case to delete all the task at once, user can easily complete his needs by using delete menu option.
   
-![add](gifs/deleteall.gif)
+![add](gifs/deleteall1.gif)
 
 ### Share Task
  Users can share their notes or task through the gmail or bluetooth  by selecting the share option in menu.
  
-![add](gifs/sharenotes2.gif)
+![add](gifs/sharenotes1.gif)
 
 
 ### Exit App
 
  In this last section, user can exit the app by clicking on the exit menu located in menu option of the app.
 
-![add](gifs/exit.gif)
+![add](gifs/exit1.gif)
 
 In this TodDo Application i have divided features into
 
