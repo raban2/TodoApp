@@ -11,8 +11,11 @@
         android:title="Delete Completed" />
     <item
         android:id="@+id/menu_2"
-        android:title="@string/share"
-        />
+        android:title="@string/share" />
+
+    <item
+        android:id="@+id/menu_about_us"
+        android:title="About Us"/>
 
     <item android:id="@+id/menu_logout"
         android:title="Exit"
