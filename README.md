@@ -96,11 +96,8 @@ These are the basic functional requirements of our App that helps to do perform 
 - Delete All feature
 - Delete Completed
 - Task Share in Gmail/Bluetooth
+- Validation of TextView while adding new task and updating old task
 - Exit Option 
-
-
-
-
 
 
 
