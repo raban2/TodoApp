@@ -17,7 +17,7 @@
     <string name="edit_update">Update</string>
     <string name="ok">Ok</string>
     <string name="share">Share</string>
-    <string name="author_text">Author : Raban Kathariya </string>
+    <string name="author_text">Author : Raban Kathariya\nVersion: 1.1.0 </string>
     <string name="some_text">A todo app  written in java using the fragments,Components,MVVM and persistence
 A user may add task to todo task list,update the tasks as per their requirement, view all the tasks they have completed or not completed as well as ,Share their notes via bluetooth,gmail and delete all the tasks or only the completed task.This app  helps  user to record their daily activities.</string>
 

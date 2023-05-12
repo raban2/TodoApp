@@ -12,18 +12,8 @@ public class AboutActivity extends AppCompatActivity {
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.activity_about);
-
-//            TextView textView = (TextView) findViewById(R.id.about_us_text);
-//            textView.setText(getString(R.string.some_text));
-//
-//            TextView textView2 = (TextView) findViewById(R.id.author);
-//            textView.setText(getString(R.string.author_text));
-
-
-
+            getSupportActionBar().setTitle("back");
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         }
-
-
-
 }

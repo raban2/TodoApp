@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
-            android:name="com.example.todoapp.AboutActivity"
+            android:name="com.example.todoapp.AboutActivity" android:parentActivityName="com.example.todoapp.MainActivity"
             android:exported="false" />
         <activity
             android:name="com.example.todoapp.SplashActivity"
