@@ -1,6 +1,5 @@
 package com.example.todoapp.database;
 
-import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -32,4 +31,7 @@ public interface TodoDAO {
 
     @Query("Delete From tasks where is_completed=1")
     void deleteCompleted();
+
+    @Query("SELECT * FROM tasks WHERE title LIKE :searchQuery OR description LIKE :searchQuery")
+    LiveData<List<Task>> searchTodos(String searchQuery);
 }

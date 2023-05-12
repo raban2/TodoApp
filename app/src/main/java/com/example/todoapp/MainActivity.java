@@ -25,6 +25,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
 
+
 public class MainActivity extends AppCompatActivity {
 
     FloatingActionButton fabAddNew;
@@ -56,11 +57,13 @@ public class MainActivity extends AppCompatActivity {
 
         mTodoViewModel= ViewModelProviders.of(this).get(TodoViewModel.class);
     }
-    //for menu options
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         getMenuInflater().inflate(R.menu.main_menu,menu);
         return true;
+
+
     }
 
 
@@ -173,7 +176,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
         }
         return super.onOptionsItemSelected(item);
     }
+
 }

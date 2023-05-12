@@ -108,5 +108,11 @@ public class TodoRepository {
             mTodoDAO.deleteById(todos[0]);
             return null;
         }
+
+
+    }
+    public LiveData<List<Task>> searchTodos(String searchText) {
+        String searchQuery = "%" + searchText + "%";
+        return mTodoDAO.searchTodos(searchQuery);
     }
 }

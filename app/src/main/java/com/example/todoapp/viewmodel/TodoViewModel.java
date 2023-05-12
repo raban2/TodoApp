@@ -43,5 +43,10 @@ public class TodoViewModel extends AndroidViewModel {
     public void deleteCompleted(){
         mTodoRepository.deleteCompleted();
     }
+
+    //for search
+    public LiveData<List<Task>> searchTodos(String searchText) {
+        return mTodoRepository.searchTodos(searchText);
+    }
 }
 

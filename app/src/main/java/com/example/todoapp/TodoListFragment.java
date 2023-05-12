@@ -4,12 +4,16 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.widget.SearchView;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
@@ -21,14 +25,16 @@ import com.example.todoapp.model.Task;
 import com.example.todoapp.viewmodel.TodoViewModel;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.List;
-
 
 public class TodoListFragment extends Fragment {
     View rootView;
+    private SearchView searchView;
     TextView mPriority;  // for the priority case of the task
     private TodoViewModel mTodoViewModel;
     RecyclerView todoRecyclerView;
+    private TodoAdapter todoAdapter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -40,6 +46,10 @@ public class TodoListFragment extends Fragment {
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         todoRecyclerView.setLayoutManager(layoutManager);
+
+        todoAdapter = new TodoAdapter(new ArrayList<>());
+        todoRecyclerView.setAdapter(todoAdapter);
+        setHasOptionsMenu(true);
         updateRV();
         return rootView;
     }
@@ -61,6 +71,13 @@ public class TodoListFragment extends Fragment {
 
         public TodoAdapter(List<Task> todoList) {
             mTodoList = todoList;
+        }
+
+        public void setTodos(List<Task> todos) {
+            if (todos != null) {
+                this.mTodoList = todos;
+                notifyDataSetChanged();
+            }
         }
 
         @NonNull
@@ -193,4 +210,33 @@ public class TodoListFragment extends Fragment {
             }
         }
     }
+    //for menu options
+
+    @Override
+    public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+
+        MenuItem searchItem = menu.findItem(R.id.menu_search);
+        searchView = (SearchView) searchItem.getActionView();
+        searchView.setQueryHint("Search Todo");
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                mTodoViewModel.searchTodos(newText).observe(getViewLifecycleOwner(), new Observer<List<Task>>() {
+                    @Override
+                    public void onChanged(List<Task> todoList) {
+                        TodoAdapter adapter = new TodoAdapter(todoList);
+                        todoRecyclerView.setAdapter(adapter);
+                    }
+                });
+                return false;
+            }
+        });
+    }
+
 }
