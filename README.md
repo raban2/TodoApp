@@ -34,6 +34,12 @@ A user may add task to todo task list,update the tasks as per their requirement,
   
 ![add](gifs/addTask1.gif)
 
+### Validation of TextField 
+
+Here, Validation is used as user is not able to create task without Task title,Task description and date.
+
+![add](gifs/validation.gif)
+
 ### Update Task
 
   In this section user can easily update task by changing title,description ,selecting date and priority of the task as well as choose the status and click on the save button.In addition to, users can cancel the updation and go back on  the home.
@@ -62,9 +68,6 @@ A user may add task to todo task list,update the tasks as per their requirement,
  Users can see the details of the App and author name in this section.
  
 ![add](gifs/aboutU1s.gif)
-
-
-
 
 
 ### Exit App
