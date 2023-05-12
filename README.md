@@ -1,6 +1,6 @@
 # ToDo App 
 
-A todo app  written in java using the fragments,Components,MVVM,Life cycle and persistance
+A todo app  written in java using the fragments,Components,MVVM, persistance, manifest, activity, view objects, lifecycle, listeners, anonymous functions, event handlers, callbacks, bundle and resources
 A user may add task to todo task list,update the tasks as per their requirement, view all the tasks they have completed or not completed as well as ,Share their notes via bluetooth,gmail and delete all the tasks or only the completed task.This app  helps  user to record their daily activities.
 
 
