@@ -8,14 +8,14 @@ A user may add task to todo task list,update the tasks as per their requirement,
 ### Splash Screen 
 ![add](gifs/splash.gif)
 
-### Add_Navigation
+### Add Navigation
 ![add](gifs/navigation.gif)
 
-### Menu
+### Menu 
 ![add](gifs/menu.gif)
 
 ### Add Task
-![add](gifs/add_Task.gif)
+![add](gifs/addTask.gif)
 
 ### Update Task
 ![add](gifs/updateTask.gif)
@@ -24,7 +24,7 @@ A user may add task to todo task list,update the tasks as per their requirement,
 ![add](gifs/deleteCompletedTask.gif)
 
 ### Delete All Task
-![add](gifs/deleteall_Task.gif)
+![add](gifs/deleteall.gif)
 
 ### Share Task
 ![add](gifs/sharenotes2.gif)
