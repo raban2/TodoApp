@@ -1,14 +1,13 @@
 # ToDo App 
 
-A todo app  written in java using the fragments,Components,MVVM and persistance
+A todo app  written in java using the fragments,Components,MVVM,Life cycle and persistance
 A user may add task to todo task list,update the tasks as per their requirement, view all the tasks they have completed or not completed as well as ,Share their notes via bluetooth,gmail and delete all the tasks or only the completed task.This app  helps  user to record their daily activities.
 
 
 ## UI Of ToDo App
+### Application Icon  
 
-### Icon Launcher  
-
- This is Icon Launcher of my ToDo App where user can see the Icon of our APP while installing.
+ This is Application Icon of my ToDo App where user can see the Icon while installing.
  
  ![add](gifs/icon.gif)
 
@@ -76,14 +75,33 @@ A user may add task to todo task list,update the tasks as per their requirement,
 
 In this TodDo Application i have divided features into
 
-## Features
+## Basic Features
 
-- Splash Screen befoe the MainActivity
-- Simple to addd task 
-- Easy to Navigate 
-- View Status of the task
-- displays task with priority
-- Easy to share note /task
+These are the basic functional requirements of our App that helps to do perform these mentioned features.
+
+- Displaying Task List
+- Adding Task
+- Editing Task
+- Deleting Task
+- Marking Completed Task
+
+## Additional Features
+
+ These are the Non- functional requirements added on the Application to make it more real-world application.
+ 
+- Launch Screen
+- Application Icon
+- Navigation Button
+- Splash Screen 
+- Delete All feature
+- Delete Completed
+- Task Share in Gmail/Bluetooth
+- Exit Option 
+
+
+
+
+
 
 
 
