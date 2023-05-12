@@ -11,29 +11,50 @@ A user may add task to todo task list,update the tasks as per their requirement,
  
 ![add](gifs/splash.gif)
 
-### Add Navigation
+### Navigation
+  
 ![add](gifs/navigation.gif)
 
 ### Menu 
+
+  Here, Ihave added  some of the options in a menu such as delete,exit and share
+  
 ![add](gifs/menu.gif)
 
-### Add Task
+### Add Task 
+
+  In this section user can add task by filling title,description ,aselecting date and priority of the task as well as choose the status and click onthe save button. 
+  
 ![add](gifs/addTask.gif)
 
 ### Update Task
+
+  In this section user can easily update  task by changing title,description ,electing date and priority of the task as well as choose the status and click onthe save button.In addition to, users can cancel the updation and go back on  the home.
+  
 ![add](gifs/updateTask.gif)
 
 ### Delete Completed Task Only
+
+  In case of the task deletion , user can easily delete tasks that are already completed.
+ 
 ![add](gifs/deleteCompletedTask.gif)
 
 ### Delete All Task
+ 
+  In case to delete all the task at once, user can easily delete  by using delete menu option.
+  
 ![add](gifs/deleteall.gif)
 
 ### Share Task
+ Users can share their notes or task  through the gmail or  bluetooth easily by selecting the share option in menu.
+ 
 ![add](gifs/sharenotes2.gif)
 
 
 ### Exit App
+
+ In this last section, user can exit the app by clicking on the exit menu located in Menu option of the app
+
 ![add](gifs/exit.gif)
 
 
@@ -41,11 +62,11 @@ A user may add task to todo task list,update the tasks as per their requirement,
 ## Features
 
 - Splash Screen befoe the MainActivity
-- Add task easily
+- Simple to addd task 
 - Easy to Navigate 
-- Easy to share notelist
 - View Status of the task
 - displays task with priority
+- Easy to share note /task
 
 
 
