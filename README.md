@@ -9,16 +9,16 @@ A user may add task to todo task list,update the tasks as per their requirement,
 
  This is Splash Screeen of ToDo App where user can see the Logo of our APP befoe landing on the home of the page.
  
-         ![add](gifs/splash.gif)
+ ![add](gifs/splash.gif)
 
 ### Navigation
    User can navigate through one activity to another by using the back  button present on the second activity
   
-          ![add](gifs/navigation.gif)
+  ![add](gifs/navigation.gif)
 
 ### Menu 
 
-  Here, Ihave added  some of the options in a menu such as delete,exit and share
+  Here, I have added  some of the options in a menu such as delete,exit and share
   
 ![add](gifs/menu.gif)
 
