@@ -6,6 +6,8 @@ A user may add task to todo task list,update the tasks as per their requirement,
 
 ## UI Of ToDo App
 ### Splash Screen 
+
+ This is Splash Screeen of ToDo App where user can see the Logo of our APP befoe landing on the home of the page.
 ![add](gifs/splash.gif)
 
 ### Add Navigation
