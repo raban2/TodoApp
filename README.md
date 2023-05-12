@@ -9,72 +9,78 @@ A user may add task to todo task list,update the tasks as per their requirement,
 
  This is Application Icon of my ToDo App where user can see the Icon while installing.
  
- ![add](gifs/icon.gif)
+ ![add](gifs/icon1.gif)
 
 ### Splash Screen 
 
  This is Splash Screeen of ToDo App where user can see the Logo of our APP befoe landing on the home page.
  
- ![add](gifs/splash1.gif)
+ ![add](gifs/splash2.gif)
 
 ### Navigation
    User can navigate through one activity to another by using the back button present on the second activity.
   
-  ![add](gifs/navigation1.gif)
+  ![add](gifs/navigation2.gif)
 
 ### Menu 
 
   Here, I have added  some of the options in a menu such as delete, share and exit. It helps to  perform certain actions.
   
-![add](gifs/menu1.gif)
+![add](gifs/menu2.gif)
 
 ### Add Task 
 
   In this section, user can add task by filling title,description ,selecting date and priority of the task as well as choose the status and click on the save button. 
   
-![add](gifs/addTask1.gif)
+![add](gifs/addTask2.gif)
 
 ### Validation of TextField 
 
 Here, Validation is used as user is not able to create task without Task title,Task description and date.
 
-![add](gifs/validation.gif)
+![add](gifs/validation1.gif)
 
 ### Update Task
 
   In this section user can easily update task by changing title,description ,selecting date and priority of the task as well as choose the status and click on the save button.In addition to, users can cancel the updation and go back on  the home.
   
-![add](gifs/updateTask1.gif)
+![add](gifs/updateTask2.gif)
 
 ### Delete Completed Task Only
 
   In case of the task deletion, user can easily delete tasks that are already completed.
  
-![add](gifs/deleteCompletedTask1.gif)
+![add](gifs/deleteCompletedTask2.gif)
 
 ### Delete All Task
  
   In case to delete all the task at once, user can easily complete his needs by using delete menu option.
   
-![add](gifs/deleteall1.gif)
+![add](gifs/deleteall2.gif)
+
+### Search Task 
+
+ This is search bar of ToDo App where user can search their tasks using task title and description.
+ 
+ ![add](gifs/TodoSearch.gif)
 
 ### Share Task
  Users can share their notes or task through the gmail or bluetooth  by selecting the share option in menu.
  
-![add](gifs/sharenotes1.gif)
+![add](gifs/sharenotes3.gif)
 
 
 ### About us 
  Users can see the details of the App and author name in this section.
  
-![add](gifs/aboutU1s.gif)
+![add](gifs/aboutUs2.gif)
 
 
 ### Exit App
 
  In this last section, user can exit the app by clicking on the exit menu located in menu option of the app.
 
-![add](gifs/exit1.gif)
+![add](gifs/exit2.gif)
 
 In this TodDo Application i have divided features into
 
@@ -96,19 +102,17 @@ These are the basic functional requirements of our App that helps to do perform 
 - Application Icon
 - Navigation Button
 - Splash Screen 
+- Status of the task(Completed/Not Completed
 - Delete All feature
 - Delete Completed
 - Task Share in Gmail/Bluetooth
 - Validation of TextView while adding new task and updating old task
+- Search function
 - Exit Option 
-
-
-
 
 ## Author
 
 - [Raban Kathariya](https://www.github.com/raban2/)
-
 
 ## References
 - [Binay Shah](https://github.com/binay-shah/TodoMVVM.git)
