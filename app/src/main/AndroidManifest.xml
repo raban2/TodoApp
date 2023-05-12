@@ -7,10 +7,10 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Todo"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TodoApp"
+        android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
             android:name="com.example.todoapp.SplashActivity"
@@ -22,15 +22,13 @@
 
                 </intent-filter>
         </activity>
+
+        <!--        added the  return activity for the second Activity-->
         <activity
-            android:name="com.example.todoapp.EditTodoFragment"
-            android:exported="false" />
-        <activity
-            android:name="com.example.todoapp.EditTodoActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.todoapp.TodoListFragment"
-            android:exported="false" />
+
+            android:name="com.example.todoapp.EditTodoActivity" android:parentActivityName="com.example.todoapp.MainActivity"></activity>
+
+
         <activity
             android:name="com.example.todoapp.MainActivity"
             android:exported="true">
