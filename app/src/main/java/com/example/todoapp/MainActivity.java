@@ -163,6 +163,16 @@ public class MainActivity extends AppCompatActivity {
                 // start the share activity
                 startActivity(Intent.createChooser(shareIntent, "Share via"));
                 return true;
+
+
+            //add the about us page
+            case R.id.menu_about_us:
+                Intent aboutUsIntent = new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(aboutUsIntent);
+                break;
+
+
+
         }
         return super.onOptionsItemSelected(item);
     }
