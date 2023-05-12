@@ -5,6 +5,13 @@ A user may add task to todo task list,update the tasks as per their requirement,
 
 
 ## UI Of ToDo App
+
+### Icon Launcher  
+
+ This is Icon Launcher of my ToDo App where user can see the Icon of our APP while installing.
+ 
+ ![add](gifs/icon.gif)
+
 ### Splash Screen 
 
  This is Splash Screeen of ToDo App where user can see the Logo of our APP befoe landing on the home page.
@@ -50,6 +57,15 @@ A user may add task to todo task list,update the tasks as per their requirement,
  Users can share their notes or task through the gmail or bluetooth  by selecting the share option in menu.
  
 ![add](gifs/sharenotes1.gif)
+
+
+### About us 
+ Users can see the details of the App and author name in this section.
+ 
+![add](gifs/aboutU1s.gif)
+
+
+
 
 
 ### Exit App
