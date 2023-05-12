@@ -16,6 +16,7 @@
     <string name="crud_update">Task Updated</string>
     <string name="edit_update">Update</string>
     <string name="ok">Ok</string>
+    <string name="share">Share</string>
 
 
 </resources>
